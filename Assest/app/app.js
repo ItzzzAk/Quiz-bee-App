@@ -1,4 +1,4 @@
-function Querys() {
+
   const strtBtn = document.querySelector(".start-btn");
   const popUp = document.querySelector(".popup-info");
   const exitBtn = document.querySelector(".exit-btn");
@@ -11,7 +11,7 @@ function Querys() {
   const optionList = document.querySelector(".option-list");
   const tryAgainBtn = document.querySelector(".tryAgain-btn");
   const goHomebtn = document.querySelector(".goHome-btn");
-}
+
 
 function ClickBtns() {
   strtBtn.onclick = () => {
@@ -162,6 +162,6 @@ function popUpDets() {
   }
 }
 
-Querys();
+
 ClickBtns();
 popUpDets();
