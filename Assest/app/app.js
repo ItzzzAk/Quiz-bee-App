@@ -161,6 +161,3 @@
   }
 
 
-
-ClickBtns();
-popUpDets();
