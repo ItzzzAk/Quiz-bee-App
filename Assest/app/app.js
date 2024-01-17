@@ -13,7 +13,7 @@
   const goHomebtn = document.querySelector(".goHome-btn");
 
 
-function ClickBtns() {
+ 
   strtBtn.onclick = () => {
     popUp.classList.add("active");
     main.classList.add("active");
@@ -56,9 +56,8 @@ function ClickBtns() {
     showQuestions(questionCount);
     questionCounter(questionNumb);
   };
-}
 
-function popUpDets() {
+ 
   let questionCount = 0;
   let questionNumb = 1;
   let userScore = 0;
@@ -160,7 +159,7 @@ function popUpDets() {
       }
     }, speed);
   }
-}
+
 
 
 ClickBtns();
